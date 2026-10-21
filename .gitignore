@@ -1,0 +1,28 @@
+# Python 测试缓存
+__pycache__/
+*.pyc
+
+# 编译产物与构建目录
+*.o
+*.d
+build/
+
+# Flex、Bison 生成文件和可执行程序
+**/Code/parser
+**/Code/lex.yy.c
+**/Code/syntax.tab.c
+**/Code/syntax.tab.h
+**/Code/*.output
+
+# 在 Code 目录中临时生成的结果；test 目录中的样例仍可提交
+**/Code/*.ir
+**/Code/*.s
+**/Code/*.asm
+**/Code/*.out
+
+# 调试记录与编辑器临时文件
+.gdb_history
+peda-session-*.txt
+*~
+*.swp
+*.swo

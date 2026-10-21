@@ -1,0 +1,12 @@
+struct Tile
+{
+    int cells[2][3];
+    float scale;
+};
+
+int main()
+{
+    struct Tile tile;
+    tile.cells[1][2] = 9;
+    return tile.cells[1][2];
+}

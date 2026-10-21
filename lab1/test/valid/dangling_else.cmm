@@ -1,0 +1,11 @@
+// Else binds to the nearest unmatched if.
+int main()
+{
+    int flag = 1;
+    if (flag)
+        if (0)
+            return 2;
+        else
+            return 3;
+    return 4;
+}

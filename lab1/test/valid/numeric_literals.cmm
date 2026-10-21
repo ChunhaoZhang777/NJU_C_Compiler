@@ -1,0 +1,7 @@
+// Integer bases and scientific notation become numeric tree values.
+int main()
+{
+    int decimal_value = 27, octal_value = 035, hex_value = 0x2F;
+    float exponent_value = 2.5e1;
+    return decimal_value;
+}

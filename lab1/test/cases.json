@@ -1,0 +1,118 @@
+[
+  {
+    "file": "valid/minimal_program.cmm",
+    "exit_code": 0,
+    "contains": [
+      "Program (1)",
+      "ID: main",
+      "INT: 0"
+    ]
+  },
+  {
+    "file": "valid/numeric_literals.cmm",
+    "exit_code": 0,
+    "contains": [
+      "Program (2)",
+      "INT: 27",
+      "INT: 29",
+      "INT: 47",
+      "FLOAT: 25.000000"
+    ]
+  },
+  {
+    "file": "valid/comments_between_tokens.cmm",
+    "exit_code": 0,
+    "contains": [
+      "Program (2)",
+      "Stmt (5)",
+      "INT: 6"
+    ]
+  },
+  {
+    "file": "valid/dangling_else.cmm",
+    "exit_code": 0,
+    "contains": [
+      "IF",
+      "ELSE",
+      "INT: 4"
+    ]
+  },
+  {
+    "file": "valid/struct_and_matrix.cmm",
+    "exit_code": 0,
+    "contains": [
+      "StructSpecifier (1)",
+      "ID: cells",
+      "DOT",
+      "LB"
+    ]
+  },
+  {
+    "file": "valid/expression_precedence.cmm",
+    "exit_code": 0,
+    "contains": [
+      "MINUS",
+      "STAR",
+      "NOT",
+      "AND",
+      "OR"
+    ]
+  },
+  {
+    "file": "valid/semantic_errors_allowed.cmm",
+    "exit_code": 0,
+    "contains": [
+      "ID: undeclared_value"
+    ]
+  },
+  {
+    "file": "invalid/invalid_character.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "A",
+        3
+      ]
+    ]
+  },
+  {
+    "file": "invalid/bad_octal.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "A",
+        3
+      ]
+    ]
+  },
+  {
+    "file": "invalid/unfinished_comment.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "A",
+        5
+      ]
+    ]
+  },
+  {
+    "file": "invalid/missing_semicolon.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "B",
+        4
+      ]
+    ]
+  },
+  {
+    "file": "invalid/missing_parenthesis.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "B",
+        3
+      ]
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+int main()
+{
+    return 0;
+}
+/* This block intentionally reaches EOF without closing.

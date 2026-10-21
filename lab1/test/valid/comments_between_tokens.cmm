@@ -1,0 +1,6 @@
+/* A comment can precede the first declaration. */
+int /* result type */ main()
+{
+    // Comment-only lines must retain the following token's line number.
+    return /* expression */ 6;
+}

@@ -1,0 +1,5 @@
+// Syntax checking does not require identifiers to be declared.
+int main()
+{
+    return undeclared_value;
+}

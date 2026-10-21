@@ -1,0 +1,7 @@
+int main()
+{
+    int value = -3 + 4 * 5;
+    if (!value || value > 8 && value != 10)
+        value = (value + 1) / 2;
+    return value;
+}
