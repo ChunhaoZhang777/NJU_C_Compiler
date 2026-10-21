@@ -1,0 +1,13 @@
+int main()
+{
+    int samples[5], index = 0, total = 0;
+    while (index < 5)
+    {
+        samples[index] = index * index + 1;
+        total = total + samples[index];
+        index = index + 1;
+    }
+    write(total);
+    write(samples[3]);
+    return 0;
+}

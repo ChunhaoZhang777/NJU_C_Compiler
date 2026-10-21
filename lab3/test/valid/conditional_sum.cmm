@@ -1,0 +1,12 @@
+// Nonpositive limits skip the loop and produce zero.
+int main()
+{
+    int limit = read(), cursor = 1, total = 0;
+    while (cursor <= limit)
+    {
+        total = total + cursor;
+        cursor = cursor + 1;
+    }
+    write(total);
+    return 0;
+}

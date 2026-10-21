@@ -1,0 +1,18 @@
+struct Pixel
+{
+    int channel[2];
+    int weight;
+};
+
+int main()
+{
+    struct Pixel source, snapshot;
+    source.channel[0] = 8;
+    source.channel[1] = 13;
+    source.weight = 21;
+    snapshot = source;
+    source.channel[1] = 100;
+    write(snapshot.channel[0] + snapshot.channel[1] + snapshot.weight);
+    write(source.channel[1]);
+    return 0;
+}

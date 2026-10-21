@@ -1,0 +1,133 @@
+[
+  {
+    "file": "valid/integer_arithmetic.cmm",
+    "runs": [
+      {
+        "input": [],
+        "output": [
+          36,
+          7,
+          -11
+        ]
+      }
+    ]
+  },
+  {
+    "file": "valid/conditional_sum.cmm",
+    "runs": [
+      {
+        "input": [
+          0
+        ],
+        "output": [
+          0
+        ]
+      },
+      {
+        "input": [
+          6
+        ],
+        "output": [
+          21
+        ]
+      },
+      {
+        "input": [
+          -3
+        ],
+        "output": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "valid/short_circuit_state.cmm",
+    "runs": [
+      {
+        "input": [],
+        "output": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "file": "valid/array_accumulation.cmm",
+    "runs": [
+      {
+        "input": [],
+        "output": [
+          35,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "file": "valid/nested_function_calls.cmm",
+    "runs": [
+      {
+        "input": [],
+        "output": [
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "file": "valid/struct_array_layout.cmm",
+    "runs": [
+      {
+        "input": [],
+        "output": [
+          42,
+          100
+        ]
+      }
+    ]
+  },
+  {
+    "file": "valid/multidimensional_offsets.cmm",
+    "runs": [
+      {
+        "input": [],
+        "output": [
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "file": "valid/recursive_power.cmm",
+    "runs": [
+      {
+        "input": [],
+        "output": [
+          81
+        ]
+      }
+    ]
+  },
+  {
+    "file": "invalid/undefined_operand.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "1",
+        3
+      ]
+    ]
+  },
+  {
+    "file": "invalid/missing_semicolon.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "B",
+        4
+      ]
+    ]
+  }
+]

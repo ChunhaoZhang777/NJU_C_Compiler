@@ -1,0 +1,8 @@
+int main()
+{
+    int cube[2][2][3];
+    cube[0][1][2] = 19;
+    cube[1][0][1] = 8;
+    write(cube[0][1][2] + cube[1][0][1]);
+    return 0;
+}
