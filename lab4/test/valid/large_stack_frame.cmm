@@ -1,0 +1,9 @@
+// The local array exceeds a signed 16-bit stack displacement.
+int main()
+{
+    int padding[12000];
+    padding[0] = 14;
+    padding[11999] = 31;
+    write(padding[0] + padding[11999]);
+    return 0;
+}

@@ -1,0 +1,8 @@
+int main()
+{
+    int left = read(), right = read();
+    write(left < right);
+    write(left >= right);
+    write(-left / 3);
+    return 0;
+}

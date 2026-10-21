@@ -1,0 +1,11 @@
+int main()
+{
+    int remaining = read(), total = 0;
+    while (remaining > 0)
+    {
+        total = total + read();
+        remaining = remaining - 1;
+    }
+    write(total);
+    return 0;
+}

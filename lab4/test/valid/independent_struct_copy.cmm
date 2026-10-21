@@ -1,0 +1,12 @@
+struct Pair { int first; int second; };
+
+int main()
+{
+    struct Pair original, saved;
+    original.first = 3;
+    original.second = 9;
+    saved = original;
+    original.first = 100;
+    write(saved.first + saved.second);
+    return 0;
+}

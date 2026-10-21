@@ -1,0 +1,13 @@
+// Two calls must restore the caller's stack and all eight argument values.
+int Weighted(int a, int b, int c, int d, int e, int f, int g, int h)
+{
+    return a + 2 * b + 3 * c + 4 * d + 5 * e + 6 * f + 7 * g + 8 * h;
+}
+
+int main()
+{
+    int forward = Weighted(1, 2, 3, 4, 5, 6, 7, 8);
+    int backward = Weighted(8, 7, 6, 5, 4, 3, 2, 1);
+    write(forward + backward);
+    return 0;
+}

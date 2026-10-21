@@ -1,0 +1,10 @@
+int AddPair(int first_value, int second_value)
+{
+    return first_value + second_value;
+}
+
+int main()
+{
+    AddPair(5);
+    return 0;
+}

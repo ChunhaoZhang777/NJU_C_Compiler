@@ -1,0 +1,13 @@
+int Fibonacci(int position)
+{
+    if (position <= 1)
+        return position;
+    return Fibonacci(position - 1) + Fibonacci(position - 2);
+}
+
+int main()
+{
+    int requested = read();
+    write(Fibonacci(requested));
+    return 0;
+}

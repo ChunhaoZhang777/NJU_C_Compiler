@@ -1,0 +1,20 @@
+int Fill(int values[4], int seed)
+{
+    int offset = 0, subtotal = 0;
+    while (offset < 4)
+    {
+        values[offset] = seed + offset;
+        subtotal = subtotal + values[offset];
+        offset = offset + 1;
+    }
+    return subtotal;
+}
+
+int main()
+{
+    int slots[4], result;
+    result = Fill(slots, 5);
+    write(result);
+    write(slots[2]);
+    return 0;
+}
