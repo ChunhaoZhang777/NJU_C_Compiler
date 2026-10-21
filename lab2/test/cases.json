@@ -1,0 +1,184 @@
+[
+  {
+    "file": "valid/function_call.cmm",
+    "exit_code": 0
+  },
+  {
+    "file": "valid/struct_array.cmm",
+    "exit_code": 0
+  },
+  {
+    "file": "valid/float_calculation.cmm",
+    "exit_code": 0
+  },
+  {
+    "file": "invalid/undefined_variable.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "1",
+        3
+      ]
+    ]
+  },
+  {
+    "file": "invalid/undefined_function.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "2",
+        3
+      ]
+    ]
+  },
+  {
+    "file": "invalid/duplicate_variable.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "3",
+        4
+      ]
+    ]
+  },
+  {
+    "file": "invalid/duplicate_function.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "4",
+        2
+      ]
+    ]
+  },
+  {
+    "file": "invalid/assignment_type.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "5",
+        4
+      ]
+    ]
+  },
+  {
+    "file": "invalid/non_lvalue.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "6",
+        3
+      ]
+    ]
+  },
+  {
+    "file": "invalid/operand_type.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "7",
+        4
+      ]
+    ]
+  },
+  {
+    "file": "invalid/return_type.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "8",
+        3
+      ]
+    ]
+  },
+  {
+    "file": "invalid/argument_type.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "9",
+        8
+      ]
+    ]
+  },
+  {
+    "file": "invalid/not_an_array.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "10",
+        4
+      ]
+    ]
+  },
+  {
+    "file": "invalid/not_a_function.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "11",
+        4
+      ]
+    ]
+  },
+  {
+    "file": "invalid/index_type.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "12",
+        4
+      ]
+    ]
+  },
+  {
+    "file": "invalid/not_a_struct.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "13",
+        4
+      ]
+    ]
+  },
+  {
+    "file": "invalid/undefined_field.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "14",
+        6
+      ]
+    ]
+  },
+  {
+    "file": "invalid/duplicate_field.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "15",
+        4
+      ]
+    ]
+  },
+  {
+    "file": "invalid/duplicate_struct.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "16",
+        2
+      ]
+    ]
+  },
+  {
+    "file": "invalid/undefined_struct.cmm",
+    "exit_code": 1,
+    "errors": [
+      [
+        "17",
+        3
+      ]
+    ]
+  }
+]

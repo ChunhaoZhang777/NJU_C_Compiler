@@ -1,0 +1,3 @@
+struct Point { int row; };
+struct Point { int column; };
+int main() { return 0; }

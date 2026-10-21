@@ -1,0 +1,10 @@
+int Double(int number)
+{
+    return number * 2;
+}
+
+int main()
+{
+    Double(2.5);
+    return 0;
+}

@@ -1,0 +1,6 @@
+struct Point
+{
+    int row;
+    int row;
+};
+int main() { return 0; }

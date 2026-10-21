@@ -1,0 +1,5 @@
+int main()
+{
+    struct Missing record;
+    return 0;
+}

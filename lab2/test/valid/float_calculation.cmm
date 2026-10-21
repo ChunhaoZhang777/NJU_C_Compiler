@@ -1,0 +1,11 @@
+float Scale(float reading)
+{
+    return reading * 2.0;
+}
+
+int main()
+{
+    float measured = Scale(1.5);
+    measured = measured + 0.25;
+    return 0;
+}

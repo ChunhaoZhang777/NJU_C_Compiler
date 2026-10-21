@@ -1,0 +1,10 @@
+int Add(int left, int right)
+{
+    return left + right;
+}
+
+int main()
+{
+    int result = Add(12, 7);
+    return result;
+}

@@ -1,0 +1,6 @@
+int main()
+{
+    int handler = 7;
+    handler();
+    return 0;
+}

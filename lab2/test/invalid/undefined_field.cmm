@@ -1,0 +1,8 @@
+struct Point { int row; };
+
+int main()
+{
+    struct Point point;
+    point.column;
+    return 0;
+}

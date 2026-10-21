@@ -1,0 +1,3 @@
+int Load() { return 1; }
+int Load() { return 2; }
+int main() { return 0; }

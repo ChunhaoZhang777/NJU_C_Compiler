@@ -1,0 +1,13 @@
+struct Record
+{
+    int values[3];
+    int count;
+};
+
+int main()
+{
+    struct Record record;
+    record.count = 3;
+    record.values[2] = 18;
+    return record.values[2] + record.count;
+}
