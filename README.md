@@ -36,5 +36,3 @@ make clean
 ```
 
 Lab2–4 使用各自目录中的相同命令；Lab4 另外支持 `make test-mips`，要求使用真实 SPIM 验证运行结果。
-
-参考实现来源：[IAmDannyCN/NJU_Compiler](https://github.com/IAmDannyCN/NJU_Compiler)。共享文法见 [C-- 文法附录 A](lab1/Manual/C--文法-附录A.pdf)。
